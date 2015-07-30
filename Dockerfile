@@ -44,5 +44,5 @@ COPY . /app
 WORKDIR /app
 RUN chmod 755 ./start.sh
 
-EXPOSE 80
+EXPOSE 888
 CMD ["./start.sh"]
